@@ -1,0 +1,68 @@
+body{
+font-family: 'Montserrat', sans-serif;
+}
+
+
+.logo{
+background-color: #CB002A;
+position: fixed;
+top: 0;
+left: 0;
+bottom: 0;
+right: 0;
+overflow: auto;
+z-index: 1;
+color: white;
+text-align: center;
+padding-top: 30vh;
+	padding-bottom: 50vh;
+}
+
+.right {
+	font-size: 40px;
+}
+
+.logo2 {
+		text-align: center;
+		color:#F40025;
+		border-bottom: 1px solid#F40025;
+		font-weight: 400;
+
+		
+}
+.logo2 img {
+	width: 10%;
+	padding-top: 2%;
+}
+.logo2-type {
+	font-size: 38px;
+}
+
+.map {
+	margin-top: 10%;
+	min-height: 200px;
+
+}
+
+.glyphicon-search{
+	margin-left: 5%;
+}
+
+.select {
+width: 100%;
+}
+
+.title2 {
+	font-weight: 200;
+	font-size: 18px;
+	text-align: center;
+	margin-top: -5%;
+}
+
+.img{
+	margin-top: 5%;
+}
+.img2{
+	margin-top: -20%;
+}
+
