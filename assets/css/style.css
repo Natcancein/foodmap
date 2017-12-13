@@ -2,6 +2,10 @@ body{
 font-family: 'Montserrat', sans-serif;
 }
 
+.column {
+	padding-left: 1px;
+	padding-right: 1px;
+}
 
 .logo{
 background-color: #CB002A;
@@ -60,9 +64,76 @@ width: 100%;
 }
 
 .img{
-	margin-top: 5%;
-}
-.img2{
-	margin-top: -20%;
+	margin-top: 10%;
 }
 
+.img2{
+	margin-top: 0;
+}
+
+/*efecto comidas chilenas*/
+#overlay, #overlay2, #overlay3, #overlay4, #overlay5, #overlay6 {
+    width: 86%;
+    height: 81%;
+    background-color: #000;
+    color: #FFF;
+    text-align: center;
+    z-index: 1;
+    opacity: 0.5;
+    display:none;
+    position: absolute;
+}
+
+/*efecto comidas mexicana*/
+#overlay-m1, #overlay2-m2, #overlay3-m3, #overlay4-m4, #overlay5-m5, #overlay6-m6 {
+    width: 86%;
+    height: 81%;
+    background-color: #000;
+    color: #FFF;
+    text-align: center;
+    z-index: 1;
+    opacity: 0.5;
+    display:none;
+    position: absolute;
+}
+
+/*efecto comidas colombiana*/
+#overlay-c1, #overlay2-c2, #overlay3-c3, #overlay4-c4, #overlay5-c5, #overlay6-c6 {
+    width: 86%;
+    height: 81%;
+    background-color: #000;
+    color: #FFF;
+    text-align: center;
+    z-index: 1;
+    opacity: 0.5;
+    display:none;
+    position: absolute;
+}
+
+#myModalLabel {
+	text-align: center;
+}
+
+.modal-body iframe {
+
+}
+
+.modal-body p {
+	text-align: center;
+}
+
+.phrase {
+	color:orange;
+}
+
+.direction, .prizes{
+	font-size: 11px;
+
+}
+
+.btn-orange {
+ background-color: #FD6625;
+ font-size: 14px;
+ color:white;
+
+}
